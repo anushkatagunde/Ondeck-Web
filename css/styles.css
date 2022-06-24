@@ -1,0 +1,107 @@
+body{
+    text-align: center;
+    font-size: 15px;
+    background-color: #F0E8E0;
+    margin: 10px 20px;
+}
+
+.navbarM{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height:45px;   
+        padding: 10px 80px; 
+}
+.navbarItem a{
+    margin: 0 15px;
+    color: grey;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.logo-img{
+  padding-right: 10px;
+}
+.navbarM button{
+    width: auto;
+    height: 45px;
+    padding: 0 14px;
+    margin-left: 15px;
+  }
+  .signInBtn{
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+  }
+  .tryforFreeBtn{
+    background-color: #123316;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .tryFreeBtn{
+    background-color: #123316;
+    color: #fff;
+    font-weight:bold;
+    width: 7%;
+    height: 45px;
+    float: left;
+  }
+
+   .row{
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    padding-left: 80px;
+   }
+  h1{
+    line-height: 5.5rem;
+    font-size: 4.5rem;
+    font-weight: bolder;
+    font-family:'Poppins', sans-serif;
+    margin-top: 90px;
+  }
+  .heading{
+    text-align: left;
+  }
+
+  p{
+    color: grey;
+    text-align: left;
+    font-size: 1.5rem;
+    
+  }
+   .heading span{
+    color: #EEB623;
+   }
+
+
+.icons{
+  width:20px;
+  margin: 0 4px;
+}
+.image{
+  padding-top: 10px;
+}
+.front-img {
+    width: 25%;
+    position: absolute;
+    right: 80px;
+    text-align: right;
+    top: 130px;
+    height: 450px;
+}
+
+.small-headings{
+  padding: 50px 0;
+}
+.small-headings p{
+  text-align: center;
+}
+
+.logo{
+  width: 10%;
+  margin: 0 15px;
+}
